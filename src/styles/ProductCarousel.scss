@@ -1,0 +1,32 @@
+/* Carousel Container */
+.slick-slider {
+    width: 80%; /* Adjust based on your design */
+    margin: auto; /* Center the carousel */
+  }
+  
+  /* Carousel Items */
+  .slick-slide {
+    text-align: center; /* Center the content within the slide */
+  }
+  
+  /* Images within Carousel Items */
+  .slick-slide img {
+    max-width: 100%; /* Make images responsive */
+    max-height: 300px; /* Adjust based on your design */
+    margin: auto; /* Center the image */
+    object-fit: contain; /* Keep the aspect ratio of the images */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .slick-slide img {
+      max-height: 200px; /* Smaller images on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .slick-slide img {
+      max-height: 150px; /* Even smaller images on mobile screens */
+    }
+  }
+  
