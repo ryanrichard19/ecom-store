@@ -1,0 +1,54 @@
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-nav {
+      .footer-link {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+  
+        &:hover {
+          color: #f0f0f0;
+        }
+      }
+    }
+  
+    .newsletter {
+      form {
+        display: flex;
+  
+        input {
+          padding: 0.5rem;
+          border: none;
+          margin-right: 0.5rem;
+        }
+  
+        button {
+          padding: 0.5rem;
+          background: #222;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+  
+          &:hover {
+            background: #444;
+          }
+        }
+      }
+    }
+  
+    .copy-right {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+    }
+  }
+  
